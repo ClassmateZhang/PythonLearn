@@ -10,6 +10,10 @@ from sklearn.metrics import classification_report
 import jieba  ###拆词
 import numpy as np
 
+"""
+Python学习第一课
+"""
+
 def dict():
     """
     分类特征抽取---数据特征抽取
