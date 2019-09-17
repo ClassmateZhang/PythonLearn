@@ -76,7 +76,7 @@ def knniris():
     #数据集的获取与分割
     lr = load_iris()
     X_train,x_test,Y_train,y_test=train_test_split(lr.data,lr.target,test_size=0.25)
-    #进行标准化处理
+    #进行标准化处理     注：k近邻算法是需要进行标准化处理的
     std = StandardScaler()
     X_train = std.fit_transform(X_train)
     x_test = std.transform(x_test)
